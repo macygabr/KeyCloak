@@ -1,5 +1,8 @@
 version: "3.8"
 
+volumes:
+  keycloak_postgres_data:
+
 services:
   keycloak-postgres:
     image: library/postgres:${KC_POSTGRES_IMAGE_TAG:-14}
