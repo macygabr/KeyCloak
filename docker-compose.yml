@@ -12,7 +12,7 @@ services:
       - DB_USER=keycloak
       - DB_PASSWORD=keycloak_password
     ports:
-      - "2020:8080"
+      - "2000:8080"
     volumes:
       - keycloak-data:/opt/keycloak/data
     networks:
