@@ -1,4 +1,4 @@
-version: "3.8"
+version: '4.28'
 
 volumes:
   keycloak_postgres_data:
