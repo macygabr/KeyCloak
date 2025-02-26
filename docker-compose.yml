@@ -13,6 +13,8 @@ services:
       - KC_DB_PASSWORD=keycloak_password
       - KC_HTTP_ENABLED=true
       - KC_PROXY=edge
+      - KC_HOSTNAME_STRICT=false
+      - KC_HOSTNAME_STRICT_HTTPS=false
     ports:
       - "2020:8080"
     volumes:
