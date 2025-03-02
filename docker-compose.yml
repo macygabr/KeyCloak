@@ -18,11 +18,11 @@ services:
       - KC_HOSTNAME_STRICT_HTTPS=false
       - KC_LOG_LEVEL=DEBUG
       - KC_SPI_THEME_STATIC_MAX_AGE=-1
-      - KC_HOSTNAME=http://37.194.168.90
+      - KC_HOSTNAME=37.194.168.90
       - KC_HOSTNAME_STRICT=false
       - KC_HOSTNAME_STRICT_HTTPS=false
-      - KC_HOSTNAME_ADMIN_URL=http://http://37.194.168.90:2020
-      - KC_HOSTNAME_URL=http://http://37.194.168.90:2020
+      - KC_HOSTNAME_ADMIN_URL=http://37.194.168.90:2020
+      - KC_HOSTNAME_URL=http://37.194.168.90:2020
 
     ports:
       - "2020:8080"
